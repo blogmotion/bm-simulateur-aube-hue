@@ -42,7 +42,7 @@ coulxy["jaune"]="[0.4432,0.5154]"
 coulxy["violet"]="[0.2742,0.1326]"
 coulxy["blanc"]="[0.3227,0.329]"
 
-log="/ramdisk/reveil.log"
+log="/var/log/reveil-sh.log"
 
 # === PARAMETRES ==================================================================================
 if [[ $# -eq 1 ]]; then
