@@ -29,18 +29,18 @@ declare -A coulxy # declaration tableau associatif
 
 # couleurs http://www.developers.meethue.com/documentation/hue-xy-values
 coulxy["orange"]="[0.613,0.387]"
-coulxy["blue"]="[0.139,0.081]"
+coulxy["bleu"]="[0.139,0.081]"
 coulxy["chartreuse"]="[0.2682,0.6632]"
 coulxy["chocolate"]="[0.6009,0.3684]"
 coulxy["cyan"]="[0.17,0.3403]"
-coulxy["green"]="[0.214,0.709]"
+coulxy["vert"]="[0.214,0.709]"
 coulxy["magenta"]="[0.3787,0.1724]"
 coulxy["marron"]="[0.7,0.2986]"
 coulxy["red"]="[0.7,0.2986]"
 coulxy["rose"]="[0.3644,0.2133]"
-coulxy["yellow"]="[0.4432,0.5154]"
+coulxy["jaune"]="[0.4432,0.5154]"
 coulxy["violet"]="[0.2742,0.1326]"
-coulxy["white"]="[0.3227,0.329]"
+coulxy["blanc"]="[0.3227,0.329]"
 
 log="/ramdisk/reveil.log"
 
