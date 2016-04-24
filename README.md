@@ -6,9 +6,9 @@ Script permettant de simuler le lever du jour sur une ampoule connectée Philips
 
 Script composé d'un unique fichier **reveil.sh** qui permet d'allumer l'ampoule avec plusieurs arguments :
 
-- couleur : orange, bleu, chartreuse, chocolat, cyan, vert, magenta, marron, rouge, rose, jaune, violet, blanc
-- intensité cible : 0 à 255
-- duree de l'allumage en minute : 1 à 109
+- couleur: orange, bleu, chartreuse, chocolat, cyan, vert (par défaut), magenta, marron, rouge, rose, jaune, violet, blanc
+- intensité cible: 0 à 255 (255 par défaut)
+- duree de l'allumage en minute : 1 à 109 (1 par défaut)
 
 ###Configuration minimale###
 - interpréteur bash
@@ -28,9 +28,9 @@ Script to simulate daylight bulb connected on a Philips Hue (except Lux) and its
 
 The script works with the single file **reveil.sh** which allows for lighting the bulb with several arguments :
 
-- french color : orange, bleu, chartreuse, chocolat, cyan, vert, magenta, marron, rouge, rose, jaune, violet, blanc
-- target intensity cible : 0 to 255
-- duration of the lighting (minute) : 1 to 109
+- french color : orange, bleu, chartreuse, chocolat, cyan, vert (default), magenta, marron, rouge, rose, jaune, violet, blanc
+- target intensity cible : 0 to 255 (default 255)
+- duration of the lighting (minute) : 1 to 109 (1 default)
 
 ###[EN] Requirements ###
 - bash interpreter
