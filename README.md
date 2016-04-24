@@ -14,7 +14,7 @@ Script composé d'un unique fichier **reveil.sh** qui permet d'allumer l'ampoule
 - interpréteur bash
 
 ###Utilisation###
-Il est recommandé de créer stocker ce script dans **/home/pi/script_bm** pour y stocker le script. Ce script ne nécessite pas de droits root.
+Il est recommandé de créer stocker ce script dans **/home/pi/script_bm** pour y stocker le script. Ce script ne nécessite pas de droits root (sauf pour écrire le log dans /var/log)
 
 ```
 chmod +x reveil.sh
@@ -36,7 +36,7 @@ The script works with the single file **reveil.sh** which allows for lighting th
 - bash interpreter
 
 ###[EN] Usage ###
-It is recommended to put the script in the directory **/home/pi/script_bm**. Does not require root permissions.
+It is recommended to put the script in the directory **/home/pi/script_bm**. Does not require root permissions (except for writting log in /var/log)
 
 ```
 chmod +x reveil.sh

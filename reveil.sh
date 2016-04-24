@@ -74,7 +74,7 @@ data="{ \
 # === Affichage ===================================================================================
 echo -e "\n\n Couleur: ${couleur} \n Intensite: ${_bri} \n Duree: ${_transminute} min \n\n  $data $url \n\n"
 
-# === cURL ("-s" pour silencieux) =================================================================
-curl -H "Accept: application/json" -X PUT --data "${data}" ${url} #>> $log 2>&1
+# === cURL =================================================================
+curl -H "Accept: application/json" -X PUT --data "${data}" ${url} >> $log 2>&1
 
 echo -e "\n\n" && exit 1
