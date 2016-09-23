@@ -11,7 +11,7 @@
 # Author: Mr Xhark -> @xhark
 # License : Creative Commons http://creativecommons.org/licenses/by-nd/4.0/deed.fr
 # Website : http://blogmotion.fr/
-VERSION="2016.04.24"
+VERSION="2016.09.23"
 
 # === BRIDGE INFORMATIONS (MODIFIEZ CECI !) =======================================================
 IP=192.168.0.20
