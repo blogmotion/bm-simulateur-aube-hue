@@ -8,8 +8,8 @@ Script permettant de simuler le lever du jour sur une ampoule connectée Philips
 
 Script composé d'un unique fichier **reveil.sh** qui permet d'allumer l'ampoule avec plusieurs arguments :
 
-- couleur: orange, bleu, chartreuse, chocolat, cyan, vert (par défaut), magenta, marron, rouge, rose, jaune, violet, blanc
-- intensité cible: 0 à 255 (255 par défaut)
+- couleur : orange, bleu, chartreuse, chocolat, cyan, vert (par défaut), magenta, marron, rouge, rose, jaune, violet, blanc
+- intensité cible : 0 à 255 (255 par défaut)
 - duree de l'allumage en minute : 1 à 109 (1 par défaut)
 
 ### 🚦 Configuration minimale
